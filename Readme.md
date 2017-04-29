@@ -1,4 +1,5 @@
 # Vultr-server-info
+vultr.com server information parsing with node.js
 
 ## Installation
 ```sh

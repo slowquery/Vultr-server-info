@@ -73,7 +73,7 @@ export class serverStatus extends vultr {
 				if(err) throw err;
 				else {
 					let $ = load(html);
-					resolve($("a[style='color:#616366;']").text().trim());
+					resolve($(".header2_billing a[style='color:#7cb342']").text().trim());
 				}
 			});
 		});
